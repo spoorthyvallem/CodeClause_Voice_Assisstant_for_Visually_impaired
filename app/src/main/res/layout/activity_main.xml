@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<TextView
+    android:id="@+id/txtSpeechInput"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="100dp"
+    android:textColor="@color/white"
+    android:textSize="26dp"
+    android:textStyle="normal" />
+
+    <ImageButton
+        android:id="@+id/btnSpeak"
+        android:layout_width="84dp"
+        android:layout_height="79dp"
+        android:background="@null"
+        android:src="@drawable/baseline_mic_24"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="167dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tap_on_mic"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textColorHighlight="@color/purple_500"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="293dp" />
+
+</android.support.constraint.ConstraintLayout>
